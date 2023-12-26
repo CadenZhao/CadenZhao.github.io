@@ -1,7 +1,7 @@
 remote_theme: ankitsultana/researcher@gem
 
 title: Researcher
-url: "https://ankitsultana.com"
+url: "https://cadenzhao.github.io"
 baseurl: "/researcher"
 
 markdown: kramdown
@@ -10,7 +10,7 @@ markdown: kramdown
 tracking_id: #
 
 footer: yes
-footer_url: "https://github.com/ankitsultana"
+footer_url: "https://github.com/CadenZhao"
 footer_text: "Page design by Ankit Sultana"
 
 sass:
