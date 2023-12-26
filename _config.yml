@@ -2,7 +2,7 @@ remote_theme: ankitsultana/researcher@gem
 
 title: Researcher
 url: "https://cadenzhao.github.io"
-baseurl: "/researcher"
+baseurl: "/"
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
@@ -19,7 +19,7 @@ sass:
 
 nav:
  - name: "About"
-   link: "/researcher/"
+   link: "/"
  - name: "Resume"
    link: "resume.pdf"
  - name: "Contact"
