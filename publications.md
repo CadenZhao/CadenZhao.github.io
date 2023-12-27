@@ -2,17 +2,6 @@
 layout: default
 ---
 
-## About Me
-
-Hi! I am a junior year student of B.E. Computer Science at Birla Institute of Technology and Science, Pilani.
-
-This is a jekyll based resume template. You can find the full source code on [GitHub](https://github.com/bk2dcradle/researcher)
-
-## Research Interest
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis. Mauris id urna ante. Fusce pharetra diam ac nisi aliquet, vel egestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.
-
-## Publications
-
-1. F.Bar, J.Doe: Effects of having a placeholder of a name
-2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
+Zhao X, Wang XJ. A systematic expression analysis of human hormone receptors. 2024. (In preparation)
+Zhao X, Zhang Z, Xie D, Wang XJ. Glucagon receptor in cerebellar neurons regulates body weight and locomotor activity. 2024. (In preparation)
+Zhang Z, Wu C, Dai C, Shi Q, Fang G, Xie D, Zhao X, Liu YJ, Wang CCL, Wang XJ. A multi-axis robot-based bioprinting system supporting natural cell function preservation and cardiac tissue fabrication. Bioact Mater. 2022:18:138-150.
