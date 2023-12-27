@@ -14,8 +14,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum a
 
 ## Education
 
-2013 年 9 月——2017 年 6 月，在福州大学获得生物工程专业学士学位。
-2017 年 9 月——2024年 6 月，在中国科学院遗传与发育生物学研究所攻读博士学位。
+2013 年 9 月——2017 年 6 月，在福州大学获得生物工程专业学士学位。 <br>
+2017 年 9 月——2024年 6 月，在中国科学院遗传与发育生物学研究所攻读博士学位。 <br>
 
 ## Typography
 
