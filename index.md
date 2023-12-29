@@ -16,7 +16,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum a
 ## Skills
 Omics analysis: RNA-seq, Cut&Tag, Single-cell omics <br><br>
 Programming: Python, R, Shell, Web development <br><br>
-Experiment: Mouse behavioral experiment, Immunofluoresence, RT-qPCR, Some other simple molecular experiments <br><br>
+Experiment: Mouse behavioral experiment, Mouse tissue dissection (especially brain), Immunofluoresence, RT-qPCR, Some other simple molecular experiments <br><br>
 Language: Chinese, English <br><br>
 
 ## Contact
