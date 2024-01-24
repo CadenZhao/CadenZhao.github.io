@@ -3,12 +3,14 @@ layout: default
 ---
 
 **Analysis of drug resistance in multiple myeloma and the interaction with mesenchymal stem cells by scRNA-seq** <br>
-<a href="files/International Student Workshop-presentation_15min.pdf"> Slides </a> <br>
+<a href="files/International Student Workshop-presentation_15min.pdf"> Slides </a>
+<a href="files/International Student Workshop-poster_3min.pdf"> Poster </a> <br>
 International Student Workshop 2021 <br>
 Organizer: IGDB, NAIST and UC Davis <br><br>
 
 **Phthalates ---- the sword of Damocles hanging over everyone’s head** <br>
-<a href="files/Future Science Salon.pdf"> Slides </a> <br>
+<a href="files/Future Science Salon.pdf"> Slides </a>
+<a href="files/Future Science Salon-poster.pdf"> Poster </a> <br>
 Future Science Salon <br>
 Organizer: Key Laboratory of Genetic Network Biology, IGDB <br><br>
 
