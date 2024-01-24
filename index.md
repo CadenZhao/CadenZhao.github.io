@@ -19,7 +19,7 @@ B.S. in Bioengineering, 2017 <br>
 College of Biological Sciences and Engineering, Fuzhou University <br>
 
 ## Skills
-Omics analysis: RNA-seq, Cut&Tag, Single-cell omics <br><br>
+Omics analysis: RNA-seq, CUT&Tag-seq, ChIP-seq, Single-cell omics, Spatial transcriptomics <br><br>
 
 Programming: Python, R, Shell, Web development <br><br>
 
