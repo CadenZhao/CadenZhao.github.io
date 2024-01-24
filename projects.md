@@ -2,15 +2,15 @@
 layout: default
 ---
 
-#### Clinical big data analysis of hypertensive patients
+**Clinical big data analysis of hypertensive patients** <br>
 Hypertension is a disease in which arterial blood pressure remains at an excessively high level, and its incidence has shown a blowout growth in the past decade, and gradually tends to be younger. Long-term high blood pressure can cause a series of cardiovascular diseases. Both genetic and environmental influences are risk factors for high blood pressure. This project is based on large-scale clinical data of hypertensive patients. In this project, I participated in the design of the subject, established data analysis methods, cleaned clinical data, and explored the risk factors related to hypertension and their associated diseases as well as the population differences in drug efficacy, etc. The project is expected to provide beneficial references for the precision medicine of hypertension.
 
-#### Single-cell transcriptome analysis of the microenvironment in multiple myeloma
+**Single-cell transcriptome analysis of the microenvironment in multiple myeloma** <br>
 Multiple myeloma is a cancer of plasma cells. Studies have shown that the bone marrow microenvironment can affect the proliferation, metastasis and drug resistance of multiple myeloma, but the mechanism is not clear. In this project, I participated in the project design and completed the analysis of single-cell transcriptome. We have identified a new multiple myeloma cell type that arises after interaction with bone marrow mesenchymal stem cells, which have a stronger protein translation ability and similar properties to cancer stem cells. Through single-cell communication analysis, we found that bone marrow mesenchymal stem cells may induce the proliferation of multiple myeloma through the cytokine IL6. In addition, we found that the transcriptome of myeloma cells cocultured with bone marrow mesenchymal stem cells had more drug resistance characteristics than myeloma cells cultured alone.
 
-#### Systematic analysis of human hormone receptors
+**Systematic analysis of human hormone receptors** <br>
 Hormones act on hormone receptors (HRs) to exert their functions of remote regulation and multi-organ coordination. Therefore, HR has a very wide range of important physiological functions and has been the focus of basic research and a common target for drug development. However, the current research on HR is often limited to a limited category of HR or a special disease state, and there is a lack of systematic analysis of all HRs in various tissues and cells of the human body. In this project, I participated in the design of the project and completed the data collection and analysis. We conducted a systematic collection and comprehensive bioinformatics analysis of human HRs. Systematic analyses of HR provide researchers with a panoramic picture of hormonal regulation in the human body.
 
-#### Function of glucagon receptor in mouse cerebellum
+**Function of glucagon receptor in mouse cerebellum** <br>
 The regulation of energy metabolism-related hormones on the central nervous system has been reported, but the research is still insufficient. When analyzing the expression of HRs related to energy metabolism in the brain, we found that glucagon receptor (GCGR) was specifically expressed in the cerebellum of mice. At present, there are no reports that GCGR regulates cerebellar function. Therefore, we constructed a mouse model of brain-specific Gcgr knockout and analyzed the role of GCGR in the central nervous system with this model. In this project, I participated in the design of the subject, and completed mouse behavioral experiments, cerebellar morphological analysis, cerebellar single cell data analysis, etc. The study of cerebellar GCGR reveals a new mechanism by which the brain senses and responds to changes in peripheral energy reserves through HR to regulate its own behavior.
 
