@@ -28,9 +28,7 @@ Experiment: Mouse behavioral experiment, Mouse tissue dissection (especially bra
 Language: Chinese, English <br><br>
 
 ## Interests
-Powerlifting <br>
-Delicious food <br>
-Travel <br>
+Powerlifting, Delicious food, Travel <br>
 
 ## Contact
 xjzhao777@163.com <br>
