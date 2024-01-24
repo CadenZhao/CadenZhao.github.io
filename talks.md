@@ -19,25 +19,20 @@ Organizer: Prof. Wang's lab <br><br>
 
 **Analysis of drug resistance in multiple myeloma and the interaction with mesenchymal stem cells by scRNA-seq** <br>
 <a href="files/International Student Workshop-presentation_15min.pdf"> Slides </a> <br>
-Journal Club
-Organizer: Prof. Wang's lab
+Journal Club <br>
+Organizer: Prof. Wang's lab <br><br>
 
 **Analysis of drug resistance in multiple myeloma and the interaction with mesenchymal stem cells by scRNA-seq** <br>
 <a href="files/International Student Workshop-presentation_15min.pdf"> Slides </a> <br>
-Journal Club
-Organizer: Prof. Wang's lab
+Journal Club <br>
+Organizer: Prof. Wang's lab <br><br>
 
 **Analysis of drug resistance in multiple myeloma and the interaction with mesenchymal stem cells by scRNA-seq** <br>
 <a href="files/International Student Workshop-presentation_15min.pdf"> Slides </a> <br>
-Journal Club
-Organizer: Prof. Wang's lab
+Journal Club <br>
+Organizer: Prof. Wang's lab <br><br>
 
 **Analysis of drug resistance in multiple myeloma and the interaction with mesenchymal stem cells by scRNA-seq** <br>
 <a href="files/International Student Workshop-presentation_15min.pdf"> Slides </a> <br>
-Journal Club
-Organizer: Prof. Wang's lab
-
-**Analysis of drug resistance in multiple myeloma and the interaction with mesenchymal stem cells by scRNA-seq** <br>
-<a href="files/International Student Workshop-presentation_15min.pdf"> Slides </a> <br>
-Journal Club
-Organizer: Prof. Wang's lab
+Journal Club <br>
+Organizer: Prof. Wang's lab <br><br>
