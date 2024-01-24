@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<a href="https://genecell.github.io/pdf/Journal_Club_Fast_interpolation-based_t-SNE_for_data_visualization_210520.pdf">
+<a href="files/International Student Workshop-presentation_15min.pdf">
 Analysis of drug resistance in multiple myeloma and the interaction with mesenchymal stem cells by scRNA-seq
 </a>
 International Student Workshop 2021
