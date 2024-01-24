@@ -2,7 +2,56 @@
 layout: default
 ---
 
-中日美学生论坛，题目是多发性骨髓瘤的单细胞分析。 <br>
-未来科学沙龙——《塑化剂》。 <br>
-各种journal club，列举一下xxxx <br>
-《为交互式计算而生 ——Jupyter 项目》 <br>
+<a href="https://genecell.github.io/pdf/Journal_Club_Fast_interpolation-based_t-SNE_for_data_visualization_210520.pdf">
+Analysis of drug resistance in multiple myeloma and the interaction with mesenchymal stem cells by scRNA-seq
+</a>
+International Student Workshop 2021
+Organizer: IGDB, NAIST and UC Davis
+
+Phthalates ---- the sword of Damocles hanging over everyone’s head
+Future Science Salon
+Organizer: Key Laboratory of Genetic Network Biology, IGDB
+
+Born for interactive computing ---- Project Jupyter
+Technical Forum
+Organizer: Prof. Wang's lab
+
+Diverse topics such as neurology, immunity, cancer, metabolism.
+Journal Club
+Organizer: Prof. Wang's lab
+
+Diverse topics such as neurology, immunity, cancer, metabolism.
+Journal Club
+Organizer: Prof. Wang's lab
+
+Diverse topics such as neurology, immunity, cancer, metabolism.
+Journal Club
+Organizer: Prof. Wang's lab
+
+Diverse topics such as neurology, immunity, cancer, metabolism.
+Journal Club
+Organizer: Prof. Wang's lab
+
+Diverse topics such as neurology, immunity, cancer, metabolism.
+Journal Club
+Organizer: Prof. Wang's lab
+
+Diverse topics such as neurology, immunity, cancer, metabolism.
+Journal Club
+Organizer: Prof. Wang's lab
+
+Diverse topics such as neurology, immunity, cancer, metabolism.
+Journal Club
+Organizer: Prof. Wang's lab
+
+Diverse topics such as neurology, immunity, cancer, metabolism.
+Journal Club
+Organizer: Prof. Wang's lab
+
+Diverse topics such as neurology, immunity, cancer, metabolism.
+Journal Club
+Organizer: Prof. Wang's lab
+
+Diverse topics such as neurology, immunity, cancer, metabolism.
+Journal Club
+Organizer: Prof. Wang's lab
