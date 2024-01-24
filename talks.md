@@ -30,7 +30,7 @@ Journal Club <br>
 Organizer: Prof. Wang's lab <br><br>
 
 **Beneficial effects of exercise on neurogenesis and cognition to the aged brain** <br>
-<a href="journal20210318-beneficial effects of exercise on neurogenesis and cognition to the aged brain.pdf"> Slides </a> <br>
+<a href="files/journal20210318-beneficial effects of exercise on neurogenesis and cognition to the aged brain.pdf"> Slides </a> <br>
 Journal Club <br>
 Organizer: Prof. Wang's lab <br><br>
 
