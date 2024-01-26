@@ -5,7 +5,7 @@ layout: default
 **Analysis of drug resistance in multiple myeloma and the interaction with mesenchymal stem cells by scRNA-seq** <br>
 <a href="files/International Student Workshop-presentation_15min.pdf"> Slides </a>
 <a href="files/International Student Workshop-poster_3min.pdf"> Poster </a> <br>
-International Student Workshop 2021 <br>
+International Student Workshop 2020 <br>
 Organizer: IGDB, NAIST and UC Davis <br><br>
 
 **Phthalates ---- the sword of Damocles hanging over everyone’s head** <br>
