@@ -4,7 +4,7 @@ layout: default
 
 ### Papers
 
-<u>Zhao X</u>, Wang XJ. A systematic expression analysis of human hormone receptors. 2024. (In preparation) <br>
+<u>Zhao X</u>, Wang XJ. A systematic expression analysis of human hormone receptors. 2024. (In submission) <br>
 
 <u>Zhao X</u>, Zhang Z, Xie D, Wang XJ. Glucagon receptor in cerebellar neurons regulates body weight and locomotor activity. 2024. (In preparation) <br>
 
