@@ -4,7 +4,7 @@ layout: default
 
 ## About Me
 <img class="profile-picture" src="profile-zxj.png">
-Hi! I am a Ph.D. in Bioinformactics.
+Hi! I am a Ph.D. in Bioinformatics.
 
 ## Research Interest
 Multi-omics data integration analysis <br>
