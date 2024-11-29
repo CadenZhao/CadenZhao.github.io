@@ -7,9 +7,11 @@ layout: default
 Hi! I am a Ph.D. in Bioinformatics.
 
 ## Research Interest
-Multi-omics data integration analysis <br>
-Animal behavior and neurological disease <br>
-Cancer heterogeneity <br>
+Multi-omics Data Integration Analysis <br>
+Cardiac Maturation <br>
+Heart Failure <br>
+Animal Behavior and Neurological Disease <br>
+Cancer Heterogeneity <br>
 
 ## Education
 Ph.D. in Bioinformatics, 2024 <br>
