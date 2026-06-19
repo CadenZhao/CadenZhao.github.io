@@ -1,0 +1,35 @@
+title: Xiangjie Zhao
+description: Postdoctoral researcher developing perturbation-enabled single-cell and spatial multi-omics technologies for cardiovascular biology.
+url: "https://cadenzhao.github.io"
+baseurl: ""
+author: Xiangjie Zhao
+email: xiangjie@unc.edu
+
+markdown: kramdown
+permalink: pretty
+
+sass:
+  style: compressed
+
+nav:
+  - name: Home
+    link: /
+  - name: Research
+    link: /research/
+  - name: Resources
+    link: /resources/
+  - name: Publications
+    link: /publications/
+  - name: CV
+    link: /cv/
+  - name: News
+    link: /news/
+  - name: Contact
+    link: /contact/
+
+profiles:
+  github: https://github.com/CadenZhao
+
+exclude:
+  - README.md
+  - LICENSE
