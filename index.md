@@ -78,10 +78,10 @@ description: Xiangjie Zhao is a postdoctoral researcher at UNC Chapel Hill devel
     <a class="quiet-link" href="{{ '/resources/' | relative_url }}">View all resources →</a>
   </div>
   <div class="page-shell resource-ledger">
-    <a href="{{ '/resources/#cardiac-snatac-atlas' | relative_url }}">
-      <span class="ledger-status">In preparation</span>
+    <a href="https://snatac-cardiac.pages.dev" aria-label="Launch the Cardiac Maturation snATAC Atlas">
+      <span class="ledger-status">Pre-publication resource</span>
       <div><h3>Cardiac Maturation snATAC Atlas</h3><p>Cell-type-resolved regulatory landscapes across postnatal maturation.</p></div>
-      <span class="ledger-type">Atlas / Data</span>
+      <span class="ledger-type">Launch atlas ↗</span>
     </a>
     <a href="{{ '/resources/#hohc' | relative_url }}">
       <span class="ledger-status published">Published</span>

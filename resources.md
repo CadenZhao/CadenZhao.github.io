@@ -15,8 +15,8 @@ description: Atlases, databases, software, and reproducible frameworks developed
 
 <main class="resource-catalogue page-shell">
   <article id="cardiac-snatac-atlas" class="catalogue-entry featured-entry">
-    <div class="catalogue-meta"><span>01</span><span>Atlas</span><span>In preparation</span></div>
-    <div class="catalogue-copy"><h2>Cardiac Maturation snATAC Atlas</h2><p>Cell-type-resolved chromatin accessibility and regulatory dynamics across postnatal cardiac maturation.</p></div>
+    <div class="catalogue-meta"><span>01</span><span>Atlas</span><span>Pre-publication resource</span></div>
+    <div class="catalogue-copy"><h2>Cardiac Maturation snATAC Atlas</h2><p>Cell-type-resolved chromatin accessibility and regulatory dynamics across postnatal cardiac maturation.</p><div class="catalogue-links"><a href="https://snatac-cardiac.pages.dev">Launch Atlas ↗</a></div></div>
     <figure class="catalogue-visual"><img src="{{ '/assets/images/cardiac-maturation-snatac-umap.png' | relative_url }}" alt="Single-nucleus ATAC-seq embedding of cardiac cell types and postnatal time points"><figcaption>Cell types and postnatal stages</figcaption></figure>
   </article>
 
