@@ -40,5 +40,5 @@ description: Atlases, databases, software, and reproducible frameworks developed
 </main>
 
 <aside class="resource-standard">
-  <div class="page-shell"><span>Documented</span><span>Reproducible</span><span>Versioned</span></div>
+  <div class="page-shell"><span>Built for reuse</span><span>Open science</span><span>Long-term access</span></div>
 </aside>
