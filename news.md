@@ -14,6 +14,10 @@ description: Research and professional updates from Xiangjie Zhao.
 <section class="section section-tinted">
   <div class="page-shell news-list">
     <article class="news-item">
+      <time class="news-date" datetime="2026-06">June 2026</time>
+      <div><h2>Cardiac Maturation snATAC Atlas launched</h2><p>A pre-publication interactive resource is now available for exploring cell-type-resolved chromatin accessibility and regulatory dynamics across postnatal cardiac maturation. <a href="https://snatac-cardiac.pages.dev">Explore the atlas ↗</a></p></div>
+    </article>
+    <article class="news-item">
       <time class="news-date" datetime="2025">2025</time>
       <div><h2>Systematic analysis of human hormone receptors published</h2><p>Our study and its companion HOHC interactive resource provide a systems-level view of hormone–receptor relationships across human tissues. <a href="https://doi.org/10.1007/s11427-024-2950-4">Read the paper ↗</a></p></div>
     </article>

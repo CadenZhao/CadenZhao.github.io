@@ -45,7 +45,10 @@ description: Academic curriculum vitae for Xiangjie Zhao.
   <section class="cv-section">
     <div class="cv-row">
       <h2>Resources</h2>
-      <div class="cv-entry"><strong>HOHC — Human Organ Hormonal Communication</strong><p>Interactive web resource for exploring hormone–receptor relationships across human organs. <a href="https://omicsexplorer.shinyapps.io/HOHC/">Open resource ↗</a></p></div>
+      <div>
+        <div class="cv-entry"><strong>Cardiac Maturation snATAC Atlas</strong><p>Interactive resource for exploring cell-type-resolved chromatin accessibility and regulatory dynamics across postnatal cardiac maturation. <a href="https://snatac-cardiac.pages.dev">Open atlas ↗</a></p></div>
+        <div class="cv-entry"><strong>HOHC — Human Organ Hormonal Communication</strong><p>Interactive web resource for exploring hormone–receptor relationships across human organs. <a href="https://omicsexplorer.shinyapps.io/HOHC/">Open resource ↗</a></p></div>
+      </div>
     </div>
   </section>
 </div>
