@@ -29,6 +29,9 @@ nav:
 
 profiles:
   github: https://github.com/CadenZhao
+  scholar: https://scholar.google.com/citations?user=Zciuz_0AAAAJ
+  orcid: https://orcid.org/0009-0001-3552-2293
+  x: https://x.com/xiangjie_zhao
 
 exclude:
   - README.md
