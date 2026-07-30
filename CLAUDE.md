@@ -81,11 +81,21 @@ more here than on a host where you control caching:
   by ~70%.
 - Keep the font count down. The four faces in `assets/fonts/` are all in use;
   `jetbrains-mono.woff2` serves both weight 400 and 500 from one file.
-- **Do not add `@view-transition { navigation: auto }` back.** Cross-document
-  view transitions hold the outgoing page on screen, with no loading feedback
-  at all, until the incoming document is ready to paint. On a high-latency
-  connection that reads as a dead click, which is exactly what it was removed
-  for.
+- **Keep the compositing budget low, especially for iOS Safari.** Navigation on
+  a phone was taking two to three seconds, and the cause was the ambience
+  stack: two full-viewport `filter: blur(90px)` layers on an infinite
+  animation, a `mix-blend-mode: overlay` grain layer over the whole viewport,
+  and a sticky header with `backdrop-filter`. WebKit has to rasterise all of
+  that before it can present the first frame — on every page load. The rules
+  that came out of it:
+  - Never put `filter: blur()` on a radial gradient. The gradient is already
+    soft; the filter only adds a per-frame re-rasterisation.
+  - `mix-blend-mode` and `backdrop-filter` are desktop-only refinements here,
+    gated behind `@media (min-width: 900px)`. Phones get opaque surfaces.
+  - Animate `transform` and `opacity` only.
+- `@view-transition { navigation: auto }` was removed too, but note it was *not*
+  the cause of the slow navigation — that was a wrong guess, corrected by the
+  fact that removing it changed nothing. It is simply not worth re-adding.
 
 ## The hero field
 

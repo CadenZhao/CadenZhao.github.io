@@ -13,7 +13,7 @@ sass:
   style: compressed
 
 # Bumped whenever css/main.scss or assets/js/site.js changes, to bust caches.
-assets_version: "7"
+assets_version: "8"
 
 person:
   name: Xiangjie Zhao
