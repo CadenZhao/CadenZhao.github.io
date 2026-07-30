@@ -31,15 +31,8 @@
 }
 @font-face {
   font-family: "JetBrains Mono";
-  src: url("{{ '/assets/fonts/jetbrains-mono-400.woff2' | relative_url }}") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "JetBrains Mono";
-  src: url("{{ '/assets/fonts/jetbrains-mono-500.woff2' | relative_url }}") format("woff2");
-  font-weight: 500;
+  src: url("{{ '/assets/fonts/jetbrains-mono.woff2' | relative_url }}") format("woff2");
+  font-weight: 400 500;
   font-style: normal;
   font-display: swap;
 }
@@ -1190,9 +1183,6 @@ main { position: relative; z-index: 1; }
   transition-delay: var(--delay, 0s);
 }
 [data-reveal].is-in { opacity: 1; transform: none; }
-
-/* ---------- View transitions ---------- */
-@view-transition { navigation: auto; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 1080px) {

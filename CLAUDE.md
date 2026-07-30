@@ -67,6 +67,26 @@ that are natively dark, like the cell-segmentation image, use `.plate-dark`.
 Conceptual diagrams are **inline SVG** in `_includes/visuals/` so they inherit
 theme variables — never a dark-baked `<img>`.
 
+## Performance constraints
+
+GitHub Pages serves everything with `Cache-Control: max-age=600` and that cannot
+be changed, so a visitor coming back after ten minutes re-downloads the CSS,
+the fonts, and every image on the page. Payload discipline therefore matters
+more here than on a host where you control caching:
+
+- **Compress images before committing them.** Photographs → JPEG quality 80,
+  progressive, sized to roughly 2× their largest CSS display size. Flat
+  scientific figures (BioRender panels, scatter plots) → PNG quantised to 256
+  colours, which has been visually lossless for the current set and cuts them
+  by ~70%.
+- Keep the font count down. The four faces in `assets/fonts/` are all in use;
+  `jetbrains-mono.woff2` serves both weight 400 and 500 from one file.
+- **Do not add `@view-transition { navigation: auto }` back.** Cross-document
+  view transitions hold the outgoing page on screen, with no loading feedback
+  at all, until the incoming document is ready to paint. On a high-latency
+  connection that reads as a dead click, which is exactly what it was removed
+  for.
+
 ## The hero field
 
 `assets/js/site.js` draws a synthetic single-cell embedding behind the home-page
