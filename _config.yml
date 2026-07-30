@@ -1,4 +1,5 @@
 title: Xiangjie Zhao
+tagline: Perturbation genomics for the developing and diseased heart
 description: Postdoctoral researcher developing perturbation-enabled single-cell and spatial multi-omics technologies for cardiovascular biology.
 url: "https://cadenzhao.github.io"
 baseurl: ""
@@ -11,9 +12,21 @@ permalink: pretty
 sass:
   style: compressed
 
+# Bumped whenever css/main.scss or assets/js/site.js changes, to bust caches.
+assets_version: "6"
+
+person:
+  name: Xiangjie Zhao
+  credential: PhD
+  role: Postdoctoral Research Associate
+  department: Pathology & Laboratory Medicine
+  institution: University of North Carolina at Chapel Hill
+  institution_short: UNC Chapel Hill
+  location: Chapel Hill, North Carolina
+  portrait: /assets/images/xiangjie-zhao.jpg
+  status: Open to collaborations
+
 nav:
-  - name: Home
-    link: /
   - name: Research
     link: /research/
   - name: Resources
@@ -36,3 +49,8 @@ profiles:
 exclude:
   - README.md
   - LICENSE
+  - PYTHON_PACKAGE_IDEA_STRATEGY.md
+  - PYTHON_PACKAGE_IDEA_STRATEGY.pdf
+  - tmp
+  - output
+  - bin

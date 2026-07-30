@@ -1,0 +1,39 @@
+# Newest first. `date` is machine-readable; `label` is what visitors see.
+- date: "2026-06"
+  label: June 2026
+  title: Cardiac Maturation snATAC Atlas launched
+  body: >-
+    A pre-publication interactive resource is now available for exploring
+    cell-type-resolved chromatin accessibility and regulatory dynamics across
+    postnatal cardiac maturation.
+  link_url: https://snatac-cardiac.pages.dev
+  link_label: Explore the atlas
+  tag: Resource
+
+- date: "2025"
+  label: "2025"
+  title: Systematic analysis of human hormone receptors published
+  body: >-
+    Our study and its companion HOHC interactive resource provide a systems-level
+    view of hormone–receptor relationships across human tissues.
+  link_url: https://doi.org/10.1007/s11427-024-2950-4
+  link_label: Read the paper
+  tag: Publication
+
+- date: "2024"
+  label: "2024"
+  title: Joined UNC Chapel Hill as a postdoctoral researcher
+  body: >-
+    Beginning a new chapter in cardiovascular biology, perturbation genomics,
+    single-cell multi-omics, and spatial transcriptomics.
+  tag: Appointment
+
+- date: "2022"
+  label: "2022"
+  title: Cardiac bioprinting study published in Bioactive Materials
+  body: >-
+    A collaborative study introduced a multi-axis robot-based system supporting
+    natural cell function preservation and cardiac tissue fabrication.
+  link_url: https://doi.org/10.1016/j.bioactmat.2022.02.009
+  link_label: Read the paper
+  tag: Publication

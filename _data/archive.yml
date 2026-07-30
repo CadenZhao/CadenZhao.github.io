@@ -1,0 +1,41 @@
+projects:
+  - index: "01"
+    title: Human hormone receptor systems biology
+    body: >-
+      Systematic collection and integrative analysis of hormone receptors across human
+      tissues, leading to a peer-reviewed study and the HOHC interactive resource.
+    link_url: /resources/#hohc
+    link_label: Explore HOHC
+  - index: "02"
+    title: Single-cell analysis of multiple myeloma
+    body: >-
+      Analysis of cellular states and communication within the multiple myeloma
+      microenvironment, with a focus on interactions between malignant and
+      mesenchymal cells.
+  - index: "03"
+    title: Clinical hypertension data
+    body: >-
+      Large-scale clinical data processing and analysis to investigate risk factors,
+      associated disease, and variation in treatment response.
+
+talks:
+  - label: "2020"
+    title: Drug resistance in multiple myeloma and interactions with mesenchymal stem cells
+    venue: International Student Workshop
+    links:
+      - label: Slides
+        url: /files/International Student Workshop-presentation_15min.pdf
+      - label: Poster
+        url: /files/International Student Workshop-poster_3min.pdf
+  - label: "2022"
+    title: Spatial genomics and cancer heterogeneity
+    venue: Journal Club
+    links:
+      - label: Slides
+        url: /files/journal20220519-Spatial genomics and cancer heterogeneity.pdf
+  - label: "2023"
+    title: Project Jupyter and interactive computing
+    venue: Technical Forum
+    links:
+      - label: Slides
+        url: /files/Technical Forum-jupyterlab-20230228.pdf

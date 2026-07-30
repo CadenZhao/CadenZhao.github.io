@@ -5,33 +5,40 @@ permalink: /publications/
 description: Peer-reviewed publications by Xiangjie Zhao.
 ---
 
-<header class="page-hero page-shell">
-  <p class="eyebrow">Publications</p>
-  <h1>Selected scholarly work.</h1>
-  <p class="page-intro">Research spanning systems-level receptor biology, scientific resources, and technologies for cardiac tissue engineering.</p>
-</header>
+{% include page-hero.html
+   kicker="Publications"
+   heading="Selected scholarly work."
+   lede="Research spanning systems-level receptor biology, scientific resources, and technologies for cardiac tissue engineering." %}
 
-<section class="section section-tinted">
-  <div class="page-shell">
-    <div class="publication-list">
-      <article class="publication">
-        <span class="publication-year">2025</span>
+<section class="band">
+  <div class="shell">
+    <div class="ledger ledger-pubs">
+      {%- for paper in site.data.publications %}
+      <a href="{{ paper.doi }}" rel="noopener" target="_blank" data-reveal>
+        <span class="ledger-meta">{{ paper.year }}</span>
         <div>
-          <h3>A systematic analysis of human hormone receptors</h3>
-          <p><strong>Zhao X</strong>, Wang XJ</p>
-          <p><em>Science China Life Sciences</em> · Research article and interactive resource</p>
+          <h3>{{ paper.title }}</h3>
+          <p>{{ paper.authors }}</p>
+          <p class="venue"><em class="cite-venue">{{ paper.venue }}</em> · {{ paper.note }}</p>
         </div>
-        <a class="publication-link" href="https://doi.org/10.1007/s11427-024-2950-4">DOI ↗</a>
-      </article>
-      <article class="publication">
-        <span class="publication-year">2022</span>
-        <div>
-          <h3>A multi-axis robot-based bioprinting system supporting natural cell function preservation and cardiac tissue fabrication</h3>
-          <p>Zhang Z, Wu C, Dai C, Shi Q, Fang G, Xie D, <strong>Zhao X</strong>, Liu YJ, Wang CCL, Wang XJ</p>
-          <p><em>Bioactive Materials</em> · Research article</p>
-        </div>
-        <a class="publication-link" href="https://doi.org/10.1016/j.bioactmat.2022.02.009">DOI ↗</a>
-      </article>
+        <span class="ledger-meta">DOI ↗</span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="band band-line">
+  <div class="shell">
+    <div class="cta" data-reveal data-stagger="off">
+      <div>
+        <p class="kicker"><i></i>Elsewhere</p>
+        <h2 style="margin-top:1.1rem">Full publication records and preprints.</h2>
+      </div>
+      <div class="cta-actions">
+        <a class="pill" href="{{ site.profiles.scholar }}" rel="me noopener" target="_blank">Google Scholar <span aria-hidden="true">↗</span></a>
+        <a class="pill" href="{{ site.profiles.orcid }}" rel="me noopener" target="_blank">ORCID <span aria-hidden="true">↗</span></a>
+      </div>
     </div>
   </div>
 </section>

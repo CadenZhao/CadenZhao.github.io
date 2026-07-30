@@ -1,0 +1,64 @@
+# Research themes. Order here is the order shown on /research/ and the home page.
+- id: perturbation-omics
+  index: "01"
+  title: Perturbation Omics Technologies
+  headline: Make cellular causality measurable.
+  summary: >-
+    Experimental platforms that pair programmed perturbations with transcriptomic,
+    epigenomic, and spatial phenotypes.
+  keywords: Perturb-seq · Multiome · Spatial
+  tags:
+    - Perturb-seq
+    - Perturb-multiome
+    - Perturb-spatial
+  rationale:
+    - Single-cell atlases reveal biological heterogeneity but are primarily observational.
+      Perturbation omics moves from association to mechanism by measuring controlled
+      interventions across thousands of individual cells.
+    - The long-term goal is a unified platform that progresses from pooled discovery
+      to multimodal mechanism and spatial validation.
+  figure: /assets/images/impact-seq-workflow.png
+  figure_alt: IMPACT-seq experimental workflow from AAV delivery to multi-omic sequencing and in vivo validation
+  figure_caption: IMPACT-seq · in vivo perturbation with transcriptomic and chromatin-accessibility readouts
+  figure_wide: true
+
+- id: cardiovascular-genomics
+  index: "02"
+  title: Cardiovascular Functional Genomics
+  headline: Resolve the regulatory logic of the heart.
+  summary: >-
+    Causal maps of the programs that govern cardiac maturation, maladaptive remodeling,
+    and regenerative potential.
+  keywords: Development · Disease · Repair
+  tags:
+    - Cardiac maturation
+    - Heart failure
+    - Regeneration
+  rationale:
+    - Cardiovascular development and disease involve coordinated changes across
+      cardiomyocytes, fibroblasts, vascular cells, immune cells, and other populations.
+    - My future program will connect human genetics, physiological models, multi-omic
+      measurements, and perturbation screens to experimentally testable mechanisms.
+  figure: /assets/images/cardiac-cell-segmentation.jpg
+  figure_alt: Cell segmentation across a cardiac tissue section
+  figure_caption: Cardiac tissue cell segmentation · spatial context, not a perturbation result
+
+- id: ai-biology
+  index: "03"
+  title: AI-enabled Biology
+  headline: Let experiments train the model.
+  summary: >-
+    Interpretable computational systems that predict cellular responses and guide
+    more informative experiments.
+  keywords: Predict · Integrate · Design
+  tags:
+    - Perturbation prediction
+    - Computational frameworks
+    - AI agents for biology
+  rationale:
+    - Perturbation datasets contain defined interventions and therefore provide an
+      unusually strong foundation for biological prediction.
+    - Models will be evaluated by whether they identify mechanisms, generalize across
+      contexts, and prioritize experiments that produce new knowledge.
+  diagram: ai-biology
+  figure_caption: Conceptual framework · experiment–model feedback

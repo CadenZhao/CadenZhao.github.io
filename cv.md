@@ -5,50 +5,49 @@ permalink: /cv/
 description: Academic curriculum vitae for Xiangjie Zhao.
 ---
 
-<header class="page-hero page-shell">
-  <p class="eyebrow">Curriculum vitae</p>
-  <h1>Xiangjie Zhao, PhD</h1>
-  <p class="page-intro">Postdoctoral Research Associate in the Department of Pathology and Laboratory Medicine at the University of North Carolina at Chapel Hill.</p>
-</header>
+{% include page-hero.html
+   kicker="Curriculum vitae"
+   heading="Xiangjie Zhao, PhD"
+   lede="Postdoctoral Research Associate in the Department of Pathology and Laboratory Medicine at the University of North Carolina at Chapel Hill." %}
 
-<div class="page-shell" style="padding-bottom:7rem">
-  <section class="cv-section">
-    <div class="cv-row">
-      <h2>Appointments</h2>
-      <div class="cv-entry"><strong>Postdoctoral Research Associate</strong><p>Department of Pathology and Laboratory Medicine<br>University of North Carolina at Chapel Hill · 2024–present</p></div>
-    </div>
-  </section>
-  <section class="cv-section">
-    <div class="cv-row">
-      <h2>Education</h2>
+<section class="band">
+  <div class="shell">
+    {%- for block in site.data.cv %}
+    <div class="cv-row" data-reveal>
+      <h2>{{ block.section }}</h2>
       <div>
-        <div class="cv-entry"><strong>PhD in Bioinformatics</strong><p>Institute of Genetics and Developmental Biology, Chinese Academy of Sciences · 2017–2024</p></div>
-        <div class="cv-entry"><strong>BS in Bioengineering</strong><p>College of Biological Sciences and Engineering, Fuzhou University · 2013–2017</p></div>
+        {%- if block.chips %}
+        <div class="tag-row" style="margin-top:0">
+          {%- for chip in block.chips %}<span class="chip">{{ chip }}</span>{% endfor %}
+        </div>
+        {%- endif %}
+        {%- for entry in block.entries %}
+        <div class="cv-entry">
+          <strong>{{ entry.title }}</strong>
+          {%- if entry.period %}<span class="cv-period">{{ entry.period }}</span>{% endif %}
+          {%- if entry.meta %}<p class="cv-meta">{{ entry.meta }}</p>{% endif %}
+          {%- if entry.url %}
+          <a class="text-link" href="{{ entry.url }}" rel="noopener" target="_blank">{{ entry.url_label }} <span aria-hidden="true">↗</span></a>
+          {%- endif %}
+        </div>
+        {%- endfor %}
       </div>
     </div>
-  </section>
-  <section class="cv-section">
-    <div class="cv-row">
-      <h2>Research areas</h2>
-      <div><p>Perturbation genomics · Single-cell multi-omics · Spatial transcriptomics · Cardiovascular biology · Functional genomics · Computational biology</p></div>
-    </div>
-  </section>
-  <section class="cv-section">
-    <div class="cv-row">
-      <h2>Publications</h2>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="band band-line">
+  <div class="shell">
+    <div class="cta" data-reveal data-stagger="off">
       <div>
-        <div class="cv-entry"><strong>Zhao X, Wang XJ. A systematic analysis of human hormone receptors.</strong><p><em>Science China Life Sciences</em>, 2025. <a href="https://doi.org/10.1007/s11427-024-2950-4">DOI ↗</a></p></div>
-        <div class="cv-entry"><strong>Zhang Z, Wu C, Dai C, Shi Q, Fang G, Xie D, Zhao X, et al. A multi-axis robot-based bioprinting system supporting natural cell function preservation and cardiac tissue fabrication.</strong><p><em>Bioactive Materials</em>, 2022. <a href="https://doi.org/10.1016/j.bioactmat.2022.02.009">DOI ↗</a></p></div>
+        <p class="kicker"><i></i>Archive</p>
+        <h2 style="margin-top:1.1rem">Earlier training-stage work and presentations.</h2>
+      </div>
+      <div class="cta-actions">
+        <a class="pill" href="{{ '/projects/' | relative_url }}">Earlier work <span aria-hidden="true">↗</span></a>
+        <a class="pill" href="{{ '/talks/' | relative_url }}">Talks <span aria-hidden="true">↗</span></a>
       </div>
     </div>
-  </section>
-  <section class="cv-section">
-    <div class="cv-row">
-      <h2>Resources</h2>
-      <div>
-        <div class="cv-entry"><strong>Cardiac Maturation snATAC Atlas</strong><p>Interactive resource for exploring cell-type-resolved chromatin accessibility and regulatory dynamics across postnatal cardiac maturation. <a href="https://snatac-cardiac.pages.dev">Open atlas ↗</a></p></div>
-        <div class="cv-entry"><strong>HOHC — Human Organ Hormonal Communication</strong><p>Interactive web resource for exploring hormone–receptor relationships across human organs. <a href="https://omicsexplorer.shinyapps.io/HOHC/">Open resource ↗</a></p></div>
-      </div>
-    </div>
-  </section>
-</div>
+  </div>
+</section>

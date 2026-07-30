@@ -1,0 +1,64 @@
+# Atlases, databases, pipelines. `featured: true` surfaces the entry on the home page.
+- id: cardiac-snatac-atlas
+  index: "01"
+  kind: Atlas
+  status: Pre-publication
+  state: live
+  title: Cardiac Maturation snATAC Atlas
+  summary: >-
+    Cell-type-resolved chromatin accessibility and regulatory dynamics across
+    postnatal cardiac maturation.
+  featured: true
+  primary_url: https://snatac-cardiac.pages.dev
+  primary_label: Launch atlas
+  links:
+    - label: Launch atlas
+      url: https://snatac-cardiac.pages.dev
+  figure: /assets/images/cardiac-maturation-snatac-umap.png
+  figure_alt: Single-nucleus ATAC-seq embedding of cardiac cell types and postnatal time points
+  figure_caption: Cell types and postnatal stages
+
+- id: hohc
+  index: "02"
+  kind: Database
+  status: Published · 2025
+  state: published
+  title: HOHC
+  summary: >-
+    Human organ hormonal communication and systematically curated hormone–receptor
+    relationships.
+  featured: true
+  primary_url: https://omicsexplorer.shinyapps.io/HOHC/
+  primary_label: Launch resource
+  links:
+    - label: Launch
+      url: https://omicsexplorer.shinyapps.io/HOHC/
+    - label: GitHub
+      url: https://github.com/CadenZhao/HOHC
+    - label: Paper
+      url: https://doi.org/10.1007/s11427-024-2950-4
+  monogram: H—R—O
+
+- id: perturb-spatial
+  index: "03"
+  kind: Framework
+  status: In development
+  state: building
+  title: Field-based Perturb-spatial
+  summary: Modeling local perturbation responses and spatial fields within tissue.
+  figure: /assets/images/cardiac-cell-segmentation.jpg
+  figure_alt: Cell segmentation across cardiac tissue
+  figure_caption: Representative tissue segmentation; not a perturbation result
+
+- id: perturb-multiome-pipeline
+  index: "04"
+  kind: Pipeline
+  status: In development
+  state: building
+  title: Perturb-multiome Analysis
+  summary: >-
+    Quality control, perturbation assignment, multimodal integration, and
+    regulatory inference.
+  figure: /assets/images/impact-seq-workflow.png
+  figure_alt: IMPACT-seq multi-omic experimental workflow
+  figure_caption: Experimental workflow

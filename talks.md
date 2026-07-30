@@ -5,16 +5,30 @@ permalink: /talks/
 description: Archived selected talks and presentations by Xiangjie Zhao.
 ---
 
-<header class="page-hero page-shell">
-  <p class="eyebrow">Archive</p>
-  <h1>Selected earlier presentations.</h1>
-  <p class="page-intro">A limited archive of training-stage scientific presentations. Current invited talks and conference presentations will be added to the CV as appropriate.</p>
-</header>
+{% include page-hero.html
+   kicker="Archive"
+   heading="Selected earlier presentations."
+   lede="A limited archive of training-stage scientific presentations. Current invited talks and conference presentations are listed on the CV." %}
 
-<section class="section section-tinted">
-  <div class="page-shell news-list">
-    <article class="news-item"><span class="news-date">2020</span><div><h2>Drug resistance in multiple myeloma and interactions with mesenchymal stem cells</h2><p>International Student Workshop · <a href="{{ '/files/International Student Workshop-presentation_15min.pdf' | relative_url }}">Slides</a> · <a href="{{ '/files/International Student Workshop-poster_3min.pdf' | relative_url }}">Poster</a></p></div></article>
-    <article class="news-item"><span class="news-date">Archive</span><div><h2>Spatial genomics and cancer heterogeneity</h2><p>Journal Club · <a href="{{ '/files/journal20220519-Spatial genomics and cancer heterogeneity.pdf' | relative_url }}">Slides</a></p></div></article>
-    <article class="news-item"><span class="news-date">Archive</span><div><h2>Project Jupyter and interactive computing</h2><p>Technical Forum · <a href="{{ '/files/Technical Forum-jupyterlab-20230228.pdf' | relative_url }}">Slides</a></p></div></article>
+<section class="band">
+  <div class="shell">
+    <div class="timeline">
+      {%- for talk in site.data.archive.talks %}
+      <article class="timeline-item" data-reveal>
+        <div class="timeline-when">
+          <time datetime="{{ talk.label }}">{{ talk.label }}</time>
+          <span class="chip">{{ talk.venue }}</span>
+        </div>
+        <div>
+          <h2>{{ talk.title }}</h2>
+          <div class="catalogue-links" style="margin-top:1rem">
+            {%- for link in talk.links %}
+            <a class="text-link" href="{{ link.url | relative_url }}">{{ link.label }} <span aria-hidden="true">↗</span></a>
+            {%- endfor %}
+          </div>
+        </div>
+      </article>
+      {%- endfor %}
+    </div>
   </div>
 </section>

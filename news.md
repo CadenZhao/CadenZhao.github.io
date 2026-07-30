@@ -5,29 +5,29 @@ permalink: /news/
 description: Research and professional updates from Xiangjie Zhao.
 ---
 
-<header class="page-hero page-shell">
-  <p class="eyebrow">News</p>
-  <h1>Research and professional updates.</h1>
-  <p class="page-intro">Selected milestones, publications, and resource releases.</p>
-</header>
+{% include page-hero.html
+   kicker="News"
+   heading="Research and professional updates."
+   lede="Selected milestones, publications, and resource releases." %}
 
-<section class="section section-tinted">
-  <div class="page-shell news-list">
-    <article class="news-item">
-      <time class="news-date" datetime="2026-06">June 2026</time>
-      <div><h2>Cardiac Maturation snATAC Atlas launched</h2><p>A pre-publication interactive resource is now available for exploring cell-type-resolved chromatin accessibility and regulatory dynamics across postnatal cardiac maturation. <a href="https://snatac-cardiac.pages.dev">Explore the atlas ↗</a></p></div>
-    </article>
-    <article class="news-item">
-      <time class="news-date" datetime="2025">2025</time>
-      <div><h2>Systematic analysis of human hormone receptors published</h2><p>Our study and its companion HOHC interactive resource provide a systems-level view of hormone–receptor relationships across human tissues. <a href="https://doi.org/10.1007/s11427-024-2950-4">Read the paper ↗</a></p></div>
-    </article>
-    <article class="news-item">
-      <time class="news-date" datetime="2024">2024</time>
-      <div><h2>Joined UNC Chapel Hill as a postdoctoral researcher</h2><p>Beginning a new chapter in cardiovascular biology, perturbation genomics, single-cell multi-omics, and spatial transcriptomics.</p></div>
-    </article>
-    <article class="news-item">
-      <time class="news-date" datetime="2022">2022</time>
-      <div><h2>Cardiac bioprinting study published in Bioactive Materials</h2><p>A collaborative study introduced a multi-axis robot-based system supporting natural cell function preservation and cardiac tissue fabrication. <a href="https://doi.org/10.1016/j.bioactmat.2022.02.009">Read the paper ↗</a></p></div>
-    </article>
+<section class="band">
+  <div class="shell">
+    <div class="timeline">
+      {%- for item in site.data.news %}
+      <article class="timeline-item" data-reveal>
+        <div class="timeline-when">
+          <time datetime="{{ item.date }}">{{ item.label }}</time>
+          {%- if item.tag %}<span class="chip">{{ item.tag }}</span>{% endif %}
+        </div>
+        <div>
+          <h2>{{ item.title }}</h2>
+          <p>{{ item.body }}</p>
+          {%- if item.link_url %}
+          <a class="text-link" href="{{ item.link_url }}" rel="noopener" target="_blank">{{ item.link_label }} <span aria-hidden="true">↗</span></a>
+          {%- endif %}
+        </div>
+      </article>
+      {%- endfor %}
+    </div>
   </div>
 </section>

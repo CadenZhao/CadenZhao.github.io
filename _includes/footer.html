@@ -1,0 +1,43 @@
+<footer class="site-footer">
+  <div class="shell footer-grid">
+    <div class="footer-lead">
+      <p class="kicker"><i></i>Get in touch</p>
+      <p class="footer-headline">Working on perturbation genomics, cardiac models, or predictive biology? <em>Let’s talk.</em></p>
+      <a class="mail-link" href="mailto:{{ site.email }}">{{ site.email }}<span aria-hidden="true">→</span></a>
+    </div>
+
+    <div class="footer-cols">
+      <div>
+        <p class="footer-label">Site</p>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          {%- for item in site.nav %}
+          <li><a href="{{ item.link | relative_url }}">{{ item.name }}</a></li>
+          {%- endfor %}
+        </ul>
+      </div>
+      <div>
+        <p class="footer-label">Elsewhere</p>
+        <ul>
+          <li><a href="{{ site.profiles.scholar }}" rel="me noopener" target="_blank">Google Scholar</a></li>
+          <li><a href="{{ site.profiles.orcid }}" rel="me noopener" target="_blank">ORCID</a></li>
+          <li><a href="{{ site.profiles.github }}" rel="me noopener" target="_blank">GitHub</a></li>
+          <li><a href="{{ site.profiles.x }}" rel="me noopener" target="_blank">X</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-label">Archive</p>
+        <ul>
+          <li><a href="{{ '/projects/' | relative_url }}">Earlier work</a></li>
+          <li><a href="{{ '/talks/' | relative_url }}">Talks</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="shell footer-base">
+    <p>© {{ 'now' | date: '%Y' }} {{ site.person.name }}</p>
+    <p>{{ site.person.department }} · {{ site.person.institution_short }}</p>
+    <p>Built with Jekyll. No trackers.</p>
+  </div>
+</footer>

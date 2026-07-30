@@ -1,0 +1,17 @@
+# Peer-reviewed publications, newest first.
+# `selected: true` also surfaces the entry on the home page.
+- year: 2025
+  title: A systematic analysis of human hormone receptors
+  authors: "<strong>Zhao X</strong>, Wang XJ"
+  venue: Science China Life Sciences
+  note: Research article and interactive resource
+  doi: https://doi.org/10.1007/s11427-024-2950-4
+  selected: true
+
+- year: 2022
+  title: A multi-axis robot-based bioprinting system supporting natural cell function preservation and cardiac tissue fabrication
+  authors: "Zhang Z, Wu C, Dai C, Shi Q, Fang G, Xie D, <strong>Zhao X</strong>, Liu YJ, Wang CCL, Wang XJ"
+  venue: Bioactive Materials
+  note: Research article
+  doi: https://doi.org/10.1016/j.bioactmat.2022.02.009
+  selected: true

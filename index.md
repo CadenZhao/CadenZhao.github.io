@@ -1,119 +1,178 @@
 ---
 layout: default
 title:
-description: Xiangjie Zhao is a postdoctoral researcher at UNC Chapel Hill developing perturbation-enabled multi-omic technologies for cardiovascular biology.
+description: Xiangjie Zhao is a postdoctoral researcher at UNC Chapel Hill developing perturbation-enabled single-cell and spatial multi-omic technologies for cardiovascular biology.
 ---
 
-<section class="academic-hero">
-  <canvas class="research-field" aria-hidden="true"></canvas>
-  <div class="page-shell academic-hero-grid">
-    <div class="academic-hero-copy">
-      <p class="overline">Xiangjie Zhao, PhD · UNC Chapel Hill</p>
-      <h1>Perturbation genomics for the developing and diseased heart.</h1>
-      <p class="hero-deck">Developing perturbation-enabled single-cell and spatial multi-omics technologies to study cardiovascular development and disease.</p>
-      <nav class="hero-links" aria-label="Featured links">
-        <a href="{{ '/research/' | relative_url }}">Research <span>↗</span></a>
-        <a href="{{ '/publications/' | relative_url }}">Publications <span>↗</span></a>
-        <a href="{{ '/cv/' | relative_url }}">CV <span>↗</span></a>
-      </nav>
+<section class="hero">
+  <canvas class="hero-canvas" data-field aria-hidden="true"></canvas>
+  <div class="shell hero-grid">
+    <div class="hero-copy">
+      <p class="kicker" data-reveal data-stagger="off"><i></i>{{ site.person.name }}, {{ site.person.credential }} · {{ site.person.institution_short }}</p>
+      <h1 data-reveal data-stagger="off">
+        <span class="line">Perturbation genomics</span>
+        <span class="line">for the developing</span>
+        <span class="line">and <em>diseased heart.</em></span>
+      </h1>
+      <p class="hero-deck" data-reveal data-stagger="off">
+        I build single-cell, multi-omic, and spatial technologies that measure what
+        happens when you actually change a gene — and models that learn from the answer.
+      </p>
+      <div class="hero-actions" data-reveal data-stagger="off">
+        <a class="pill pill-solid" href="{{ '/research/' | relative_url }}">Explore the research <span aria-hidden="true">↗</span></a>
+        <a class="pill" href="{{ '/resources/' | relative_url }}">Open the atlas <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-meta" data-reveal data-stagger="off">
+        <span>{{ site.person.department }}</span>
+        <span>{{ site.person.location }}</span>
+        <a href="{{ site.profiles.scholar }}" rel="me noopener" target="_blank">Scholar ↗</a>
+        <a href="{{ site.profiles.github }}" rel="me noopener" target="_blank">GitHub ↗</a>
+      </div>
     </div>
-    <figure class="academic-portrait">
-      <img src="{{ '/assets/images/xiangjie-zhao.jpg' | relative_url }}" alt="Xiangjie Zhao" width="1000" height="1000">
-      <figcaption>Postdoctoral Research Associate<br>Pathology &amp; Laboratory Medicine</figcaption>
+
+    <figure class="hero-card" data-reveal data-stagger="off">
+      <img src="{{ site.person.portrait | relative_url }}" alt="{{ site.person.name }}" width="1000" height="1000" fetchpriority="high">
+      <span class="chip chip-live hero-status">{{ site.person.status }}</span>
+      <figcaption>
+        <span class="card-role">{{ site.person.role }}</span>
+        <span class="card-org">{{ site.person.department }}</span>
+      </figcaption>
     </figure>
   </div>
 </section>
 
-<section class="editorial-section">
-  <div class="page-shell editorial-heading">
-    <p class="overline">Research program</p>
-    <h2>Three connected directions</h2>
-    <p>Technology, mechanism, and prediction form a single experimental cycle.</p>
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    {%- for pass in (1..2) -%}
+      {%- for method in site.data.methods -%}<span>{{ method }}</span>{%- endfor -%}
+    {%- endfor -%}
   </div>
-  <div class="page-shell theme-index-list">
-    <a href="{{ '/research/#perturbation-omics' | relative_url }}">
-      <span class="index-number">01</span>
-      <div><h3>Perturbation Omics Technologies</h3><p>Single-cell, multi-omic, and spatial readouts of genetic perturbation.</p></div>
-      <span class="index-keywords">Perturb-seq · Multiome · Spatial</span>
-      <span class="index-arrow">↗</span>
-    </a>
-    <a href="{{ '/research/#cardiovascular-genomics' | relative_url }}">
-      <span class="index-number">02</span>
-      <div><h3>Cardiovascular Functional Genomics</h3><p>Causal regulatory programs in maturation, failure, and regeneration.</p></div>
-      <span class="index-keywords">Development · Disease · Repair</span>
-      <span class="index-arrow">↗</span>
-    </a>
-    <a href="{{ '/research/#ai-biology' | relative_url }}">
-      <span class="index-number">03</span>
-      <div><h3>AI-enabled Biology</h3><p>Models that predict perturbation response and inform experiment design.</p></div>
-      <span class="index-keywords">Predict · Integrate · Design</span>
-      <span class="index-arrow">↗</span>
-    </a>
+</div>
+
+<section class="band">
+  <div class="shell">
+    <div class="band-head">
+      <div>
+        <p class="kicker" data-reveal data-stagger="off"><i></i>Research program</p>
+        <h2 data-reveal data-stagger="off">Three directions,<br>one experimental cycle.</h2>
+      </div>
+      <a class="text-link" href="{{ '/research/' | relative_url }}" data-reveal data-stagger="off">Full program <span aria-hidden="true">↗</span></a>
+    </div>
+
+    <div class="directions">
+      {%- for theme in site.data.research %}
+      <a class="direction" href="{{ '/research/#' | append: theme.id | relative_url }}" data-spotlight data-reveal>
+        <span class="direction-index">{{ theme.index }} /</span>
+        <h3>{{ theme.title }}</h3>
+        <p>{{ theme.summary }}</p>
+        <span class="direction-foot">
+          <span>{{ theme.keywords }}</span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </span>
+      </a>
+      {%- endfor %}
+    </div>
   </div>
 </section>
 
-<section class="editorial-section image-section">
-  <div class="page-shell two-column-heading">
-    <div><p class="overline">Research in view</p><h2>Experiments, tissues, cell states</h2></div>
-  </div>
-  <div class="page-shell scientific-gallery">
-    <figure class="gallery-workflow">
-      <img src="{{ '/assets/images/impact-seq-workflow.png' | relative_url }}" alt="IMPACT-seq experimental workflow from AAV delivery to multi-omic sequencing and in vivo validation">
-      <figcaption><span>01</span>IMPACT-seq experimental workflow</figcaption>
-    </figure>
-    <figure>
-      <img src="{{ '/assets/images/cardiac-cell-segmentation.jpg' | relative_url }}" alt="Cell segmentation across a cardiac tissue section">
-      <figcaption><span>02</span>Cardiac tissue cell segmentation</figcaption>
-    </figure>
-    <figure>
-      <img src="{{ '/assets/images/cardiac-maturation-snatac-umap.png' | relative_url }}" alt="Single-nucleus ATAC-seq embedding of cardiac cell types and developmental time points">
-      <figcaption><span>03</span>Cardiac maturation snATAC landscape</figcaption>
-    </figure>
+<section class="band band-line">
+  <div class="shell">
+    <div class="band-head">
+      <div>
+        <p class="kicker" data-reveal data-stagger="off"><i></i>Research in view</p>
+        <h2 data-reveal data-stagger="off">Experiments, tissues,<br>cell states.</h2>
+      </div>
+      <p data-reveal data-stagger="off">Figures from ongoing work: an in&nbsp;vivo perturbation platform, spatially resolved cardiac tissue, and the chromatin landscape of postnatal maturation.</p>
+    </div>
+
+    <div class="plates">
+      <figure class="plate plate-wide" data-reveal>
+        <div class="plate-frame">
+          <img src="{{ '/assets/images/impact-seq-workflow.png' | relative_url }}" alt="IMPACT-seq experimental workflow from AAV delivery to multi-omic sequencing and in vivo validation" loading="lazy">
+        </div>
+        <figcaption><b>01</b>IMPACT-seq experimental workflow</figcaption>
+      </figure>
+      <figure class="plate plate-dark" data-reveal>
+        <div class="plate-frame">
+          <img src="{{ '/assets/images/cardiac-cell-segmentation.jpg' | relative_url }}" alt="Cell segmentation across a cardiac tissue section" loading="lazy">
+        </div>
+        <figcaption><b>02</b>Cardiac tissue cell segmentation</figcaption>
+      </figure>
+      <figure class="plate" data-reveal>
+        <div class="plate-frame">
+          <img src="{{ '/assets/images/cardiac-maturation-snatac-umap.png' | relative_url }}" alt="Single-nucleus ATAC-seq embedding of cardiac cell types and developmental time points" loading="lazy">
+        </div>
+        <figcaption><b>03</b>Cardiac maturation snATAC landscape</figcaption>
+      </figure>
+    </div>
   </div>
 </section>
 
-<section class="editorial-section subtle-section">
-  <div class="page-shell two-column-heading">
-    <div><p class="overline">Research infrastructure</p><h2>Resources for the field</h2></div>
-    <a class="quiet-link" href="{{ '/resources/' | relative_url }}">View all resources →</a>
-  </div>
-  <div class="page-shell resource-ledger">
-    <a href="https://snatac-cardiac.pages.dev" aria-label="Launch the Cardiac Maturation snATAC Atlas">
-      <span class="ledger-status">Pre-publication resource</span>
-      <div><h3>Cardiac Maturation snATAC Atlas</h3><p>Cell-type-resolved regulatory landscapes across postnatal maturation.</p></div>
-      <span class="ledger-type">Launch atlas ↗</span>
-    </a>
-    <a href="{{ '/resources/#hohc' | relative_url }}">
-      <span class="ledger-status published">Published</span>
-      <div><h3>HOHC</h3><p>Human organ hormonal communication and receptor biology.</p></div>
-      <span class="ledger-type">Database / Web</span>
-    </a>
+<section class="band band-line">
+  <div class="shell">
+    <div class="band-head">
+      <div>
+        <p class="kicker" data-reveal data-stagger="off"><i></i>Research infrastructure</p>
+        <h2 data-reveal data-stagger="off">Resources for the field.</h2>
+      </div>
+      <a class="text-link" href="{{ '/resources/' | relative_url }}" data-reveal data-stagger="off">All resources <span aria-hidden="true">↗</span></a>
+    </div>
+
+    <div class="ledger ledger-resources">
+      {%- for item in site.data.resources -%}
+      {%- if item.featured -%}
+      <a href="{{ item.primary_url }}" rel="noopener" target="_blank" data-reveal>
+        <span class="chip chip-{{ item.state }}">{{ item.status }}</span>
+        <div>
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.summary }}</p>
+        </div>
+        <span class="ledger-meta">{{ item.primary_label }} ↗</span>
+      </a>
+      {%- endif -%}
+      {%- endfor %}
+    </div>
   </div>
 </section>
 
-<section class="editorial-section">
-  <div class="page-shell two-column-heading">
-    <div><p class="overline">Selected publications</p><h2>Recent work</h2></div>
-    <a class="quiet-link" href="{{ '/publications/' | relative_url }}">All publications →</a>
-  </div>
-  <div class="page-shell citation-list">
-    <article>
-      <span class="citation-year">2025</span>
-      <div><h3>A systematic analysis of human hormone receptors.</h3><p><strong>Zhao X</strong>, Wang XJ · <em>Science China Life Sciences</em></p></div>
-      <a href="https://doi.org/10.1007/s11427-024-2950-4" aria-label="Open publication">DOI ↗</a>
-    </article>
-    <article>
-      <span class="citation-year">2022</span>
-      <div><h3>A multi-axis robot-based bioprinting system supporting cardiac tissue fabrication.</h3><p>Zhang Z, Wu C, Dai C, et al. · <em>Bioactive Materials</em></p></div>
-      <a href="https://doi.org/10.1016/j.bioactmat.2022.02.009" aria-label="Open publication">DOI ↗</a>
-    </article>
+<section class="band band-line">
+  <div class="shell">
+    <div class="band-head">
+      <div>
+        <p class="kicker" data-reveal data-stagger="off"><i></i>Selected publications</p>
+        <h2 data-reveal data-stagger="off">Recent work.</h2>
+      </div>
+      <a class="text-link" href="{{ '/publications/' | relative_url }}" data-reveal data-stagger="off">All publications <span aria-hidden="true">↗</span></a>
+    </div>
+
+    <div class="ledger ledger-pubs">
+      {%- for paper in site.data.publications -%}
+      {%- if paper.selected -%}
+      <a href="{{ paper.doi }}" rel="noopener" target="_blank" data-reveal>
+        <span class="ledger-meta">{{ paper.year }}</span>
+        <div>
+          <h3>{{ paper.title }}</h3>
+          <p>{{ paper.authors }} · <span class="venue">{{ paper.venue }}</span></p>
+        </div>
+        <span class="ledger-meta">DOI ↗</span>
+      </a>
+      {%- endif -%}
+      {%- endfor %}
+    </div>
   </div>
 </section>
 
-<aside class="academic-note">
-  <div class="page-shell">
-    <p class="overline">Current position</p>
-    <p>Postdoctoral Research Associate at the University of North Carolina at Chapel Hill.</p>
-    <a href="mailto:xiangjie@unc.edu">xiangjie@unc.edu</a>
+<section class="band band-line">
+  <div class="shell">
+    <div class="cta" data-reveal data-stagger="off">
+      <div>
+        <p class="kicker"><i></i>Collaboration</p>
+        <h2 style="margin-top:1.1rem">Perturbation genomics, cardiac models, or predictive biology — <em>let’s talk.</em></h2>
+      </div>
+      <div class="cta-actions">
+        <a class="pill pill-solid" href="mailto:{{ site.email }}">{{ site.email }} <span aria-hidden="true">→</span></a>
+        <a class="pill" href="{{ '/cv/' | relative_url }}">Read the CV <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
   </div>
-</aside>
+</section>

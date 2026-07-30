@@ -1,0 +1,52 @@
+# Each section renders as one row on /cv/. Entries accept: title, meta, note, url, url_label.
+- section: Appointments
+  entries:
+    - title: Postdoctoral Research Associate
+      meta: Department of Pathology and Laboratory Medicine, University of North Carolina at Chapel Hill
+      period: 2024 — present
+
+- section: Education
+  entries:
+    - title: PhD in Bioinformatics
+      meta: Institute of Genetics and Developmental Biology, Chinese Academy of Sciences
+      period: 2017 — 2024
+    - title: BS in Bioengineering
+      meta: College of Biological Sciences and Engineering, Fuzhou University
+      period: 2013 — 2017
+
+- section: Research areas
+  chips:
+    - Perturbation genomics
+    - Single-cell multi-omics
+    - Spatial transcriptomics
+    - Cardiovascular biology
+    - Functional genomics
+    - Computational biology
+
+- section: Publications
+  entries:
+    - title: "Zhao X, Wang XJ. A systematic analysis of human hormone receptors."
+      meta: Science China Life Sciences
+      period: "2025"
+      url: https://doi.org/10.1007/s11427-024-2950-4
+      url_label: DOI
+    - title: "Zhang Z, Wu C, Dai C, Shi Q, Fang G, Xie D, Zhao X, et al. A multi-axis robot-based bioprinting system supporting natural cell function preservation and cardiac tissue fabrication."
+      meta: Bioactive Materials
+      period: "2022"
+      url: https://doi.org/10.1016/j.bioactmat.2022.02.009
+      url_label: DOI
+
+- section: Resources
+  entries:
+    - title: Cardiac Maturation snATAC Atlas
+      meta: >-
+        Interactive resource for exploring cell-type-resolved chromatin accessibility
+        and regulatory dynamics across postnatal cardiac maturation.
+      url: https://snatac-cardiac.pages.dev
+      url_label: Open atlas
+    - title: HOHC — Human Organ Hormonal Communication
+      meta: >-
+        Interactive web resource for exploring hormone–receptor relationships across
+        human organs.
+      url: https://omicsexplorer.shinyapps.io/HOHC/
+      url_label: Open resource

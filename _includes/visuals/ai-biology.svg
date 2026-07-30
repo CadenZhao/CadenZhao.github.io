@@ -1,0 +1,50 @@
+<svg class="diagram diagram-model" viewBox="0 0 720 356" role="img" aria-labelledby="model-title model-desc" xmlns="http://www.w3.org/2000/svg">
+  <title id="model-title">Experiment–model feedback</title>
+  <desc id="model-desc">Measured perturbation responses train a model; the model predicts unseen responses, which decide the next experiment.</desc>
+
+  <g opacity="0.9">
+    <circle cx="72" cy="96" r="4" fill="var(--spring)" stroke="none"/>
+    <circle cx="96" cy="118" r="3" fill="var(--spring)" stroke="none"/>
+    <circle cx="58" cy="132" r="3.4" fill="var(--spring)" stroke="none"/>
+    <circle cx="88" cy="150" r="4.2" fill="var(--spring)" stroke="none"/>
+    <circle cx="112" cy="92" r="3" fill="var(--spring)" stroke="none"/>
+    <circle cx="66" cy="168" r="3.6" fill="var(--violet)" stroke="none"/>
+    <circle cx="104" cy="180" r="3" fill="var(--violet)" stroke="none"/>
+    <circle cx="126" cy="140" r="4" fill="var(--violet)" stroke="none"/>
+    <circle cx="82" cy="206" r="3.2" fill="var(--violet)" stroke="none"/>
+    <circle cx="118" cy="212" r="3.8" fill="var(--violet)" stroke="none"/>
+  </g>
+  <text x="95" y="252" class="diagram-label" text-anchor="middle">Measured</text>
+  <text x="95" y="274" class="diagram-sub" text-anchor="middle">perturbation × cell</text>
+
+  <path d="M170 150h70" stroke="var(--line-2)" stroke-width="1.5"/>
+  <path d="M232 144l10 6-10 6" stroke="var(--line-2)" stroke-width="1.5" fill="none"/>
+
+  <g class="diagram-layer">
+    <rect x="278" y="70" width="26" height="160" rx="13"/>
+    <rect x="322" y="90" width="26" height="120" rx="13"/>
+    <rect x="366" y="70" width="26" height="160" rx="13"/>
+  </g>
+  <text x="335" y="252" class="diagram-label" text-anchor="middle">Model</text>
+  <text x="335" y="274" class="diagram-sub" text-anchor="middle">interpretable, testable</text>
+
+  <path d="M424 150h70" stroke="var(--line-2)" stroke-width="1.5"/>
+  <path d="M486 144l10 6-10 6" stroke="var(--line-2)" stroke-width="1.5" fill="none"/>
+
+  <g opacity="0.9">
+    <circle cx="556" cy="104" r="3.4" fill="var(--ember)" stroke="none"/>
+    <circle cx="590" cy="92" r="4" fill="var(--ember)" stroke="none"/>
+    <circle cx="614" cy="122" r="3" fill="var(--ember)" stroke="none"/>
+    <circle cx="572" cy="140" r="4.2" fill="var(--ember)" stroke="none"/>
+    <circle cx="606" cy="166" r="3.4" fill="var(--ember)" stroke="none"/>
+    <circle cx="548" cy="176" r="3" fill="var(--ember)" stroke="none"/>
+    <circle cx="586" cy="200" r="3.8" fill="var(--ember)" stroke="none"/>
+    <circle cx="622" cy="204" r="3.2" fill="var(--ember)" stroke="none"/>
+  </g>
+  <text x="588" y="252" class="diagram-label" text-anchor="middle">Predicted</text>
+  <text x="588" y="274" class="diagram-sub" text-anchor="middle">unseen perturbations</text>
+
+  <path d="M588 296c0 22-40 22-60 22H190c-20 0-60 0-60-22"
+        stroke="var(--line-2)" stroke-width="1.5" stroke-dasharray="5 8" fill="none"/>
+  <text x="360" y="344" class="diagram-note" text-anchor="middle">design the next experiment</text>
+</svg>

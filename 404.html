@@ -3,9 +3,18 @@ layout: default
 title: Page not found
 permalink: /404.html
 ---
-<header class="page-hero page-shell">
-  <p class="eyebrow">404</p>
-  <h1>This page could not be found.</h1>
-  <p class="page-intro">The site has recently been reorganized. The content may have moved to Research, Resources, or Publications.</p>
-  <div class="button-row"><a class="button" href="{{ '/' | relative_url }}">Return home</a><a class="button secondary" href="{{ '/research/' | relative_url }}">Explore research</a></div>
-</header>
+
+{% include page-hero.html
+   kicker="404"
+   heading="This page could not be found."
+   lede="The site was recently rebuilt. What you are looking for has most likely moved to Research, Resources, or Publications." %}
+
+<section class="band">
+  <div class="shell">
+    <div class="cta-actions">
+      <a class="pill pill-solid" href="{{ '/' | relative_url }}">Return home <span aria-hidden="true">→</span></a>
+      <a class="pill" href="{{ '/research/' | relative_url }}">Explore research <span aria-hidden="true">↗</span></a>
+      <a class="pill" href="{{ '/resources/' | relative_url }}">Resources <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</section>

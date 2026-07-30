@@ -1,0 +1,46 @@
+<svg class="diagram diagram-loop" viewBox="0 0 1200 330" role="img" aria-labelledby="loop-title loop-desc" xmlns="http://www.w3.org/2000/svg">
+  <title id="loop-title">The experimental cycle</title>
+  <desc id="loop-desc">Five stages — question, perturbation, multi-omic readout, model, validation — connected in a loop that feeds new hypotheses back to the start.</desc>
+
+  <defs>
+    <linearGradient id="loop-ramp" gradientUnits="userSpaceOnUse" x1="110" y1="0" x2="1090" y2="0">
+      <stop class="ramp-a" offset="0"/>
+      <stop class="ramp-b" offset="0.55"/>
+      <stop class="ramp-c" offset="1"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M110 120H1090" stroke="url(#loop-ramp)" stroke-width="1.5" fill="none"/>
+  <path d="M1090 150c72 0 72 108-26 108H136c-98 0-98-108-26-108"
+        stroke="var(--line-2)" stroke-width="1.5" stroke-dasharray="5 8" fill="none"/>
+  <text x="600" y="278" class="diagram-note" text-anchor="middle">new hypotheses</text>
+
+  <g>
+    <circle class="node-ring" cx="110" cy="120" r="26"/><circle cx="110" cy="120" r="6" fill="var(--ink-3)" stroke="none"/>
+    <circle class="node-ring" cx="355" cy="120" r="26"/><circle cx="355" cy="120" r="6" fill="var(--spring)" stroke="none"/>
+    <circle class="node-ring" cx="600" cy="120" r="26"/><circle cx="600" cy="120" r="6" fill="var(--spring)" stroke="none"/>
+    <circle class="node-ring" cx="845" cy="120" r="26"/><circle cx="845" cy="120" r="6" fill="var(--violet)" stroke="none"/>
+    <circle class="node-ring" cx="1090" cy="120" r="26"/><circle cx="1090" cy="120" r="6" fill="var(--ember)" stroke="none"/>
+  </g>
+
+  <g class="diagram-index" text-anchor="middle">
+    <text x="110" y="66">01</text><text x="355" y="66">02</text><text x="600" y="66">03</text>
+    <text x="845" y="66">04</text><text x="1090" y="66">05</text>
+  </g>
+
+  <g class="diagram-label" text-anchor="middle">
+    <text x="110" y="186">Question</text>
+    <text x="355" y="186">Perturbation</text>
+    <text x="600" y="186">Multi-omic readout</text>
+    <text x="845" y="186">Model</text>
+    <text x="1090" y="186">Validation</text>
+  </g>
+
+  <g class="diagram-sub" text-anchor="middle">
+    <text x="110" y="210">what is causal?</text>
+    <text x="355" y="210">CRISPR · AAV</text>
+    <text x="600" y="210">RNA · ATAC · spatial</text>
+    <text x="845" y="210">predict response</text>
+    <text x="1090" y="210">in vivo test</text>
+  </g>
+</svg>
