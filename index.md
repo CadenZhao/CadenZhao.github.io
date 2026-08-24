@@ -82,7 +82,7 @@ description: Xiangjie Zhao is a postdoctoral researcher at UNC Chapel Hill devel
         <p class="kicker" data-reveal data-stagger="off"><i></i>Research in view</p>
         <h2 data-reveal data-stagger="off">Cell states across<br>cardiac maturation.</h2>
       </div>
-      <p data-reveal data-stagger="off">The chromatin landscape of postnatal cardiac maturation, from the atlas released alongside this site. Figures from unpublished studies are held back until the work is out.</p>
+      <p data-reveal data-stagger="off">The chromatin landscape of postnatal cardiac maturation, from the public atlas. Figures from unpublished studies stay off the page until the work is out.</p>
     </div>
 
     <div class="plates plates-solo">
