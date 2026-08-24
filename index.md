@@ -80,23 +80,17 @@ description: Xiangjie Zhao is a postdoctoral researcher at UNC Chapel Hill devel
     <div class="band-head">
       <div>
         <p class="kicker" data-reveal data-stagger="off"><i></i>Research in view</p>
-        <h2 data-reveal data-stagger="off">Experiments, tissues,<br>cell states.</h2>
+        <h2 data-reveal data-stagger="off">Cell states across<br>cardiac maturation.</h2>
       </div>
-      <p data-reveal data-stagger="off">Spatially resolved cardiac tissue and the chromatin landscape of postnatal maturation. Figures from unpublished studies are held back until the work is out.</p>
+      <p data-reveal data-stagger="off">The chromatin landscape of postnatal cardiac maturation, from the atlas released alongside this site. Figures from unpublished studies are held back until the work is out.</p>
     </div>
 
-    <div class="plates">
-      <figure class="plate plate-dark" data-reveal>
-        <div class="plate-frame">
-          <img src="{{ '/assets/images/cardiac-cell-segmentation.jpg' | relative_url }}" alt="Cell segmentation across a cardiac tissue section" loading="lazy">
-        </div>
-        <figcaption><b>01</b>Cardiac tissue cell segmentation</figcaption>
-      </figure>
+    <div class="plates plates-solo">
       <figure class="plate" data-reveal>
         <div class="plate-frame">
           <img src="{{ '/assets/images/cardiac-maturation-snatac-umap.png' | relative_url }}" alt="Single-nucleus ATAC-seq embedding of cardiac cell types and developmental time points" loading="lazy">
         </div>
-        <figcaption><b>02</b>Cardiac maturation snATAC landscape</figcaption>
+        <figcaption><b>01</b>Cardiac maturation snATAC landscape</figcaption>
       </figure>
     </div>
   </div>

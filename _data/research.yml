@@ -35,9 +35,6 @@
       cardiomyocytes, fibroblasts, vascular cells, immune cells, and other populations.
     - My future program will connect human genetics, physiological models, multi-omic
       measurements, and perturbation screens to experimentally testable mechanisms.
-  figure: /assets/images/cardiac-cell-segmentation.jpg
-  figure_alt: Cell segmentation across a cardiac tissue section
-  figure_caption: Cardiac tissue cell segmentation · spatial context, not a perturbation result
 
 - id: ai-biology
   index: "03"

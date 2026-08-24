@@ -718,6 +718,12 @@ main { position: relative; z-index: 1; }
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
+.plates-solo {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 940px;
+  margin-inline: auto;
+}
+.plates-solo .plate-frame { aspect-ratio: 16 / 10; max-height: 520px; }
 .plate {
   position: relative;
   border: 1px solid var(--line);
