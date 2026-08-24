@@ -17,10 +17,6 @@
       interventions across thousands of individual cells.
     - The long-term goal is a unified platform that progresses from pooled discovery
       to multimodal mechanism and spatial validation.
-  figure: /assets/images/impact-seq-workflow.png
-  figure_alt: IMPACT-seq experimental workflow from AAV delivery to multi-omic sequencing and in vivo validation
-  figure_caption: IMPACT-seq · in vivo perturbation with transcriptomic and chromatin-accessibility readouts
-  figure_wide: true
 
 - id: cardiovascular-genomics
   index: "02"

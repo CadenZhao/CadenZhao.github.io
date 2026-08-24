@@ -82,27 +82,21 @@ description: Xiangjie Zhao is a postdoctoral researcher at UNC Chapel Hill devel
         <p class="kicker" data-reveal data-stagger="off"><i></i>Research in view</p>
         <h2 data-reveal data-stagger="off">Experiments, tissues,<br>cell states.</h2>
       </div>
-      <p data-reveal data-stagger="off">Figures from ongoing work: an in&nbsp;vivo perturbation platform, spatially resolved cardiac tissue, and the chromatin landscape of postnatal maturation.</p>
+      <p data-reveal data-stagger="off">Spatially resolved cardiac tissue and the chromatin landscape of postnatal maturation. Figures from unpublished studies are held back until the work is out.</p>
     </div>
 
     <div class="plates">
-      <figure class="plate plate-wide" data-reveal>
-        <div class="plate-frame">
-          <img src="{{ '/assets/images/impact-seq-workflow.png' | relative_url }}" alt="IMPACT-seq experimental workflow from AAV delivery to multi-omic sequencing and in vivo validation" loading="lazy">
-        </div>
-        <figcaption><b>01</b>IMPACT-seq experimental workflow</figcaption>
-      </figure>
       <figure class="plate plate-dark" data-reveal>
         <div class="plate-frame">
           <img src="{{ '/assets/images/cardiac-cell-segmentation.jpg' | relative_url }}" alt="Cell segmentation across a cardiac tissue section" loading="lazy">
         </div>
-        <figcaption><b>02</b>Cardiac tissue cell segmentation</figcaption>
+        <figcaption><b>01</b>Cardiac tissue cell segmentation</figcaption>
       </figure>
       <figure class="plate" data-reveal>
         <div class="plate-frame">
           <img src="{{ '/assets/images/cardiac-maturation-snatac-umap.png' | relative_url }}" alt="Single-nucleus ATAC-seq embedding of cardiac cell types and developmental time points" loading="lazy">
         </div>
-        <figcaption><b>03</b>Cardiac maturation snATAC landscape</figcaption>
+        <figcaption><b>02</b>Cardiac maturation snATAC landscape</figcaption>
       </figure>
     </div>
   </div>

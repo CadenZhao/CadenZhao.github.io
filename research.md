@@ -67,24 +67,14 @@ description: A research program integrating perturbation omics, cardiovascular f
         <p class="kicker" data-reveal data-stagger="off"><i></i>Current projects</p>
         <h2 data-reveal data-stagger="off">Work in progress.</h2>
       </div>
-      <p data-reveal data-stagger="off">Public descriptions stay deliberately brief while studies are ongoing.</p>
+      <p data-reveal data-stagger="off">Descriptions stay deliberately brief while studies are unpublished.</p>
     </div>
 
     <div class="grid-cards">
       <article class="mini-card" data-reveal>
-        <span class="chip chip-live">Active</span>
-        <h3>Perturb-multiome</h3>
-        <p>CRISPR perturbation paired with single-cell gene expression and chromatin accessibility.</p>
-      </article>
-      <article class="mini-card" data-reveal>
-        <span class="chip chip-live">Active</span>
-        <h3>Visium HD Perturb-spatial</h3>
-        <p>Spatial response fields and local tissue effects of perturbation.</p>
-      </article>
-      <article class="mini-card" data-reveal>
-        <span class="chip chip-live">Active</span>
-        <h3>In vivo Perturb-seq</h3>
-        <p>Programmable gene regulation in cardiovascular models.</p>
+        <span class="chip chip-building">Under wraps</span>
+        <h3>Perturbation studies in progress</h3>
+        <p>Several are running. Designs and results stay off this page until the corresponding papers are published.</p>
       </article>
       <article class="mini-card" data-reveal>
         <span class="chip chip-building">In preparation</span>

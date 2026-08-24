@@ -7,3 +7,6 @@ _site
 _config.dev.yml
 tmp/
 output/
+
+PYTHON_PACKAGE_IDEA_STRATEGY.md
+PYTHON_PACKAGE_IDEA_STRATEGY.pdf

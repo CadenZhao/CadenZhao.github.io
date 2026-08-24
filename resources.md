@@ -31,7 +31,7 @@ description: Atlases, databases, software, and reproducible frameworks developed
       </div>
 
       {%- if item.figure %}
-      <figure class="catalogue-visual{% if item.id == 'perturb-spatial' %} is-dark{% endif %}">
+      <figure class="catalogue-visual">
         <img src="{{ item.figure | relative_url }}" alt="{{ item.figure_alt }}" loading="lazy">
         <figcaption>{{ item.figure_caption }}</figcaption>
       </figure>

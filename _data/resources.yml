@@ -38,27 +38,3 @@
     - label: Paper
       url: https://doi.org/10.1007/s11427-024-2950-4
   monogram: H—R—O
-
-- id: perturb-spatial
-  index: "03"
-  kind: Framework
-  status: In development
-  state: building
-  title: Field-based Perturb-spatial
-  summary: Modeling local perturbation responses and spatial fields within tissue.
-  figure: /assets/images/cardiac-cell-segmentation.jpg
-  figure_alt: Cell segmentation across cardiac tissue
-  figure_caption: Representative tissue segmentation; not a perturbation result
-
-- id: perturb-multiome-pipeline
-  index: "04"
-  kind: Pipeline
-  status: In development
-  state: building
-  title: Perturb-multiome Analysis
-  summary: >-
-    Quality control, perturbation assignment, multimodal integration, and
-    regulatory inference.
-  figure: /assets/images/impact-seq-workflow.png
-  figure_alt: IMPACT-seq multi-omic experimental workflow
-  figure_caption: Experimental workflow
