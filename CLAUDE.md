@@ -74,10 +74,10 @@ for "something is happening" states.
 - Do not use `@use`, `@layer`, or modern Sass module syntax.
 - Keep custom-property values simple; complex nested functions can be mangled.
 
-Figures with white backgrounds sit in `.plate` (a light "paper" card). Figures
-that are natively dark, like the cell-segmentation image, use `.plate-dark`.
-Conceptual diagrams are **inline SVG** in `_includes/visuals/` so they inherit
-theme variables — never a dark-baked `<img>`.
+Figures with white backgrounds sit in `.plate` (a light "paper" card); a figure
+that is natively dark uses `.plate-dark`, and a lone figure uses
+`.plates-solo`. Conceptual diagrams are **inline SVG** in `_includes/visuals/`
+so they inherit theme variables — never a dark-baked `<img>`.
 
 ## Performance constraints
 
