@@ -22,6 +22,18 @@ content, you are doing it wrong; add a row to the data file instead.
 | The technique ticker under the hero | `_data/methods.yml` |
 | Name, role, nav, social links | `_config.yml` |
 
+## What may go on the site
+
+Unpublished work stays off the site until the corresponding paper is out. That
+covers experimental schematics, method figures, named in-progress projects, and
+any unreleased data — not just text. Field-level positioning is fine, and so is
+anything already public through a released resource or a published paper.
+
+When in doubt, ask before adding; a figure is far easier to keep back than to
+un-publish. Note that this repository is public, so deleting a file only removes
+it from the current tree — the blob stays in git history unless the history is
+rewritten and GitHub is asked to garbage-collect it.
+
 ## Local preview
 
 Jekyll 3.9 is installed under `~/.gem/ruby/2.6.0` (system Ruby 2.6 — Jekyll 4
