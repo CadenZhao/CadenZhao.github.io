@@ -723,7 +723,8 @@ main { position: relative; z-index: 1; }
   max-width: 940px;
   margin-inline: auto;
 }
-.plates-solo .plate-frame { aspect-ratio: 16 / 10; max-height: 520px; }
+/* Must out-specify `.plate:not(.plate-wide) .plate-frame` above. */
+.plates-solo .plate:not(.plate-wide) .plate-frame { aspect-ratio: 16 / 10; max-height: 520px; }
 .plate {
   position: relative;
   border: 1px solid var(--line);
