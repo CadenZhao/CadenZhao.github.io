@@ -8,7 +8,11 @@ description: Xiangjie Zhao is a postdoctoral researcher at UNC Chapel Hill devel
   <canvas class="hero-canvas" data-field aria-hidden="true"></canvas>
   <div class="shell hero-grid">
     <div class="hero-copy">
-      <p class="kicker" data-reveal data-stagger="off"><i></i>{{ site.person.name }}, {{ site.person.credential }} · {{ site.person.institution_short }}</p>
+      <div class="hero-identity" data-reveal data-stagger="off">
+        <img class="hero-avatar" src="{{ site.person.portrait | relative_url }}" alt="{{ site.person.name }}" width="480" height="480" fetchpriority="high">
+        <p class="kicker">{{ site.person.name }}, {{ site.person.credential }} · {{ site.person.institution_short }}</p>
+        <span class="chip chip-live">{{ site.person.status }}</span>
+      </div>
       <h1 data-reveal data-stagger="off">
         <span class="line">Perturbation genomics</span>
         <span class="line">for the developing</span>
@@ -23,21 +27,13 @@ description: Xiangjie Zhao is a postdoctoral researcher at UNC Chapel Hill devel
         <a class="pill" href="{{ '/resources/' | relative_url }}">Open the atlas <span aria-hidden="true">↗</span></a>
       </div>
       <div class="hero-meta" data-reveal data-stagger="off">
+        <span>{{ site.person.role }}</span>
         <span>{{ site.person.department }}</span>
         <span>{{ site.person.location }}</span>
         <a href="{{ site.profiles.scholar }}" rel="me noopener" target="_blank">Scholar ↗</a>
         <a href="{{ site.profiles.github }}" rel="me noopener" target="_blank">GitHub ↗</a>
       </div>
     </div>
-
-    <figure class="hero-card" data-reveal data-stagger="off">
-      <img src="{{ site.person.portrait | relative_url }}" alt="{{ site.person.name }}" width="1000" height="1000" fetchpriority="high">
-      <span class="chip chip-live hero-status">{{ site.person.status }}</span>
-      <figcaption>
-        <span class="card-role">{{ site.person.role }}</span>
-        <span class="card-org">{{ site.person.department }}</span>
-      </figcaption>
-    </figure>
   </div>
 </section>
 

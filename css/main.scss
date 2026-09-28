@@ -546,12 +546,8 @@ main { position: relative; z-index: 1; }
   mask-image: linear-gradient(102deg, transparent 8%, rgba(0, 0, 0, .26) 32%, #000 64%);
   -webkit-mask-image: linear-gradient(102deg, transparent 8%, rgba(0, 0, 0, .26) 32%, #000 64%);
 }
-.hero-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.72fr) minmax(0, .62fr);
-  align-items: center;
-  gap: clamp(2.5rem, 5.5vw, 5rem);
-}
+.hero-grid { display: grid; grid-template-columns: minmax(0, 1fr); }
+.hero-copy { max-width: 56rem; }
 .hero h1 {
   margin: 1.3rem 0 0;
 }
@@ -566,45 +562,24 @@ main { position: relative; z-index: 1; }
 }
 .hero-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 2rem; }
 
-.hero-card {
-  position: relative;
-  padding: .8rem;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  background: var(--panel);
-  box-shadow: var(--shadow);
+/* A small avatar beside the name is enough presence for a landing page; the
+   old portrait card made the hero read like a profile pop-up. */
+.hero-identity {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .85rem;
 }
-.hero-card::before {
-  content: "";
-  position: absolute;
-  inset: -1px;
-  border-radius: inherit;
-  padding: 1px;
-  background: linear-gradient(150deg, rgba(111, 231, 162, .5), transparent 38%, transparent 62%, rgba(166, 142, 255, .5));
-  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
-  -webkit-mask-composite: xor;
-  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
-  mask-composite: exclude;
-  pointer-events: none;
-}
-.hero-card img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
+/* Let the name shrink and wrap beside the avatar instead of dropping under it
+   on narrow screens; only the status chip should fall to the next line. */
+.hero-identity .kicker { flex: 1 1 14rem; min-width: 0; margin: 0; }
+.hero-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
   object-fit: cover;
-  border-radius: calc(var(--radius) - 10px);
-}
-.hero-card figcaption {
-  display: grid;
-  gap: .15rem;
-  padding: .9rem .5rem .35rem;
-}
-.hero-card .card-role { font-size: .84rem; font-weight: 550; letter-spacing: -.02em; }
-.hero-card .card-org { color: var(--ink-3); font-family: var(--mono); font-size: .63rem; letter-spacing: .08em; text-transform: uppercase; }
-.hero-status {
-  position: absolute;
-  right: 1.1rem; bottom: 3.6rem;
-  z-index: 2;
-  background: var(--bg-1);
+  border: 1px solid var(--line-2);
+  box-shadow: 0 0 0 3px var(--bg);
 }
 
 .hero-meta {
@@ -1211,8 +1186,6 @@ main { position: relative; z-index: 1; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 1080px) {
-  .hero-grid { grid-template-columns: minmax(0, 1fr); }
-  .hero-card { max-width: 300px; }
   .directions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .catalogue-item { grid-template-columns: minmax(0, 1fr); }
   .footer-grid { grid-template-columns: minmax(0, 1fr); }
@@ -1250,7 +1223,6 @@ main { position: relative; z-index: 1; }
   .grid-rule { display: none; }
   .hero-canvas { opacity: calc(var(--field-opacity) * .5); }
   .hero h1 .line { display: inline; }
-  .hero-card { max-width: 240px; }
   .directions { grid-template-columns: minmax(0, 1fr); }
   .direction { min-height: 0; }
   .plates { grid-template-columns: minmax(0, 1fr); }
@@ -1264,7 +1236,6 @@ main { position: relative; z-index: 1; }
   .cv-entry { grid-template-columns: minmax(0, 1fr); }
   .cv-entry .cv-period { grid-row: auto; grid-column: 1; }
   .footer-cols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .hero-status { right: .8rem; bottom: 3.2rem; }
 }
 
 /* ---------- Motion preferences ---------- */
